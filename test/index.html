@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <base href="/">
+
+    <title>Русские программмы</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+<!-- Custom HTML -->
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 d-flex col col-md-2  justify-content-between header__nav align-self-center">
+                <div class="header__logo align-self-center">
+                    <a href="/">
+                        <img src="./img/header/logo.png" alt="Русские программы">
+                    </a>
+                </div>
+                <div class="header__menu align-self-center">
+                    <ul class="d-flex justify-content-around">
+                        <li class="active"><a href="catalog.html">Каталог</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="cashback.html">Акции</a></li>
+                        <li><a href="about.html">О компании</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col  align-self-center">
+                <div class="row">
+                    <div class="header__contact">
+                        <a href="#">8 (495) 799-65-54</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="header__time">
+                        Пн - пт, 9:00 - 19:00
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col align-self-center controls">
+                <div class="row">
+                    <div class="header__control justify-content-lg-between d-flex">
+                        <a href="#" class="header__link_fill">Вход</a>
+                        <a href="reg.html" class="header__link_inv">Регистрация</a>
+                        <a href="basket.html" class="header__cart"><img src="./img/header/cart-icon.svg"
+                                                              alt="Перейти в корзину"><span class="cart__count">5</span></a>
+                        <div class="mob-menu align-self-center ">
+                            <button id="menu_active"><img src="./img/menu/menu-mob.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="header__lk">
+                        <a href="#" class="header__link">Личный кабинет</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="mobail-menu hide">
+    <div class="container">
+        <ul class="mobail-menu__list">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="cashback.html">Акции</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li class="show-small"><a href="#">Вход</a></li>
+            <li class="show-small"><a href="reg.html">Регистрация</a></li>
+            <li class="show-small"><a href="#">Личный кабинет</a></li>
+        </ul>
+    </div>
+</div>
+<div class="banner">
+    <div class="container">
+        <div class="banner__content">
+            <img src="http://via.placeholder.com/1190x360" alt="Банер" class="img-responsive">
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 left-menu">
+                <div class="">
+                    <div class="left-menu__search">
+                        <form action="">
+                            <input type="text" placeholder="Поиск программы...">
+                            <button class="left-menu__search-btn"><img src="./img/search.svg" alt="Поиск"></button>
+                        </form>
+                    </div>
+
+                    <div class="left-menu__category">
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/windows.svg" alt=""></span>
+                            <span class="category-item__name">Microsoft</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/antivirus.svg" alt=""></span>
+                            <span class="category-item__name">Антивирусы</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/1c.svg" alt=""></span>
+                            <span class="category-item__name">1C</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/graphic.svg" alt=""></span>
+                            <span class="category-item__name">Графика и видео</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/planning.svg" alt=""></span>
+                            <span class="category-item__name">Проектирование</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/office.svg" alt=""></span>
+                            <span class="category-item__name">Офисный программы</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/save.svg" alt=""></span>
+                            <span class="category-item__name">Резервное копирование</span>
+                        </a>
+                        <a class="left-menu__category-item" href="#">
+                            <span class="category-item__image"><img src="./img/menu/virtualization.svg" alt=""></span>
+                            <span class="category-item__name">Виртуализация</span>
+                        </a>
+                    </div>
+                    <div class="left-menu__contact">
+                        <form action="">
+                            <div class="left-menu__title">Не нашли нужную программу
+                                или разработчика?
+                                Заполните форму и с Вами
+                                свяжется наш специалист.
+                            </div>
+                            <input class="left-menu__text" type="text" placeholder="Имя">
+                            <input class="left-menu__text" type="text" placeholder="Название продукта">
+                            <input class="left-menu__text" type="text" placeholder="E-mail">
+                            <input class="left-menu__text" type="text" placeholder="Номер телефона">
+                            <button class="left-menu__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="content">
+                    <div class="content__menu">
+                        <div class="row">
+                            <div class="col-5 d-flex justify-content-start align-items-center">
+                                <button id="content__category-btn" class="content__menu-btn">Разделы сайта</button>
+                            </div>
+                            <div class="col-7 justify-content-center">
+                                <div class="content__search">
+                                    <form action="">
+                                        <input type="text" placeholder="Поиск программы...">
+                                        <button class="content__search-btn"><img src="./img/search.svg" alt="Поиск">
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__category">
+                        <ul class="content__category-list">
+                            <li><a href="#">Microsoft</a></li>
+                            <li><a href="#">Антивирусы</a></li>
+                            <li><a href="#">1C</a></li>
+                            <li><a href="#">Графика и видео</a></li>
+                            <li><a href="#">Проектирование</a></li>
+                            <li><a href="#">Офисные программы</a></li>
+                            <li><a href="#">Резервное копирование</a></li>
+                            <li><a href="#">Виртуализация</a></li>
+                        </ul>
+                    </div>
+                    <div class="content__banner align-items-center">
+                        <div class="banner__close">
+                            <button><img src="./img/close.svg" alt=""></button>
+                        </div>
+                        <div class="banner__info">
+                            <div class="banner__title">Узнать подробнее о бонусных баллах
+                                и заработке на приглашенных друзьях.
+                            </div>
+                            <div class="banner__btn">
+                                <a href="#" class="banner__link">Узнать подробнее</a>
+                            </div>
+                        </div>
+                        <div class="banner__image"><img src="./img/coins.png" alt=""></div>
+                    </div>
+                    <div class="content__title">Выбор ПО по разработчику</div>
+                    <div class="selectPO">
+                        <div class="selectPO__list">
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/1c.png" alt=""></a>
+                            </div>
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/avast.png" alt=""></a>
+                            </div>
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/corel.png" alt=""></a>
+                            </div>
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/roadmin.png" alt=""></a>
+                            </div>
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/mcAfee.png" alt=""></a>
+                            </div>
+                            <div class="selectPO__item">
+                                <a href="#"><img src="img/po_create/veeam.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__title">Наши клиенты</div>
+                    <div class="clients">
+                        <ul class="clients__list">
+                            <li><a href="#"><img src="img/po_create/kerio.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/po_create/roadmin.png" alt=""></a></li>
+                            <li><a href="#"><img src="img/po_create/eset.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="content__title">Наши сертефикаты</div>
+                    <div class="certificate__list">
+                        <a  href="./img/license/1.jpg" class="certificate__item"><img src="./img/lin_test.png" alt=""></a>
+                        <a href="./img/license/2.jpg" class="certificate__item"><img src="./img/lin_test.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-12">
+                <div class="footer__about">
+                    &copy; Компания «CompanyName» 2015–2018
+                </div>
+            </div>
+            <div class="col-md col-md-2 col-5">
+                <ul class="footer__menu">
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="cashback.html">Акции</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 col-7">
+                <div class="footer__contact">
+                    <div class="footer__address">г. Москва ул. Пушкина, д. 32</div>
+                    <div class="footer__phone"><a href="tel:84954369821">8 (495) 436-98-21</a>, <a
+                            href="tel:84953724873">8 (495) 372-48-73</a></div>
+                    <div class="footer__email"><a href="mailto:info@companyname.ru">info@companyname.ru</a></div>
+                </div>
+            </div>
+            <div class="col-lg col-md-4">
+                <div class="footer__title">Способы оплаты</div>
+                <div class="footer__pay">
+                    <a href="#" class="footer__pay-item"><img src="./img/pay/visa.svg" alt="Visa"></a>
+                    <a href="#" class="footer__pay-item"><img src="./img/pay/mastercard.svg" alt="Mastercard"></a>
+                    <a href="#" class="footer__pay-item"><img src="./img/pay/maestro.svg" alt="Maestro"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>

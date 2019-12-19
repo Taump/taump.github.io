@@ -20,7 +20,7 @@ window.onload = function () {
         amountInput.classList.remove('is-danger');
         if (amount && amount >= 100000) {
             client.api.getAaStateVars(params, function (err, result) {
-                if (result.no_asset && result.yes_asset) {
+                if (result && result.no_asset && result.yes_asset) {
                     if (!result.winner) {
                         window.location = `byteball${testnet ? '-tn' : ''}:${AA_address}?amount=${amount}&amp;asset=base`;
                     } else {
